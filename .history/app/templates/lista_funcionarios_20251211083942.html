@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load django_bootstrap5 %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Listagem de Funcionários</title>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+    <h1> Listagem de Funcionários </h1>
+    <table> class="table table-hover"
+        <thead>
+            <tr>
+                <th>Nome do funcionário</th>
+                <th>Ações</th>
+            <tr>
+        <thead>
+        <tbody>
+            <tr></tr>
+    {% for funcionario in object_list %}
+        <li>{{ funcionario.nome }}</li>
+        <a href={% url "listar_funcionario" pk=funcionario.id %}>Exibir dados</a>
+        <a href={% url "editar_funcionario" pk=funcionario.id %}>Editar</a>
+        <a href={% url "remover_funcionario" pk=funcionario.id %}>Remover</a>
+        <hr>
+        <button type="button" class="btn btn-success" onClick="history.go(-1)"> Voltar </button>
+    <!-- <li>{{ funcionario.data_nascimento }}</li>
+    <li>{{ funcionario.email }}</li>
+    <li>{{ funcionario.remumeracao }}</li>
+    <hr> -->
+    {% endfor %}
+</body>
+</html>
