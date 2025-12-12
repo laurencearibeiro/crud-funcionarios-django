@@ -1,6 +1,10 @@
 # CRUD de Funcionários em Django + MySQL
 
-Projeto desenvolvido para a Atividade Avaliativa 3 na disciplina de Desenvolvimento de Aplicações do curso de Análise e Desenvolvimento de Sistemas (ADS). O objetivo foi construir um sistema completo de **CRUD (Create, Read, Update e Delete)** utilizando **Python**, **Django**, **MySQL** e **Bootstrap**.
+Projeto desenvolvido para a Atividade Avaliativa 3 na disciplina de Desenvolvimento de Aplicações do curso de Análise e Desenvolvimento de Sistemas (ADS). 
+
+O objetivo foi construir um sistema completo de **CRUD (Create, Read, Update e Delete)** utilizando **Python**, **Django**, **MySQL** e **Bootstrap**.
+
+CRUD é um acrônimo para Create, Read, Update e Delete, que representam quatro operações fundamentais no gerenciamento de dados. A etapa Create refere-se à criação de novos dados em um banco de dados ou sistema. Read corresponde à leitura ou consulta dos dados já existentes. Update é a atualização das informações previamente armazenadas, enquanto Delete representa a exclusão desses dados. Essas operações são amplamente utilizadas em bancos de dados, linguagens de programação e sistemas utilizados por usuários.
 
 ## 🧩 Descrição do Projeto
 
