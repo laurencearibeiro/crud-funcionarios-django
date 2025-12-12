@@ -1,9 +1,6 @@
 # CRUD de Funcionários em Django + MySQL
 
-Projeto desenvolvido para a Atividade Avaliativa 3 do curso de Análise e Desenvolvimento de Sistemas (ADS).  
-O objetivo foi construir um sistema completo de **CRUD (Create, Read, Update e Delete)** utilizando **Python**, **Django**, **MySQL** e **Bootstrap**.
-
----
+Projeto desenvolvido para a Atividade Avaliativa 3 na disciplina de Desenvolvimento de Aplicações do curso de Análise e Desenvolvimento de Sistemas (ADS). O objetivo foi construir um sistema completo de **CRUD (Create, Read, Update e Delete)** utilizando **Python**, **Django**, **MySQL** e **Bootstrap**.
 
 ## 🧩 Descrição do Projeto
 
@@ -25,8 +22,6 @@ O CRUD foi construído seguindo a arquitetura do Django, utilizando:
 - **ORM do Django** para comunicação entre a aplicação e o banco  
 - **App Django dedicado (“app”), configurado com AppConfig e registrado em INSTALLED_APPS**
 
----
-
 ## 🗂 Páginas (Templates HTML)
 
 As páginas da aplicação foram desenvolvidas em HTML utilizando Bootstrap para estilização.
@@ -40,8 +35,6 @@ O projeto contém:
 
 Cada template utiliza Django Template Language para renderizar os dados enviados pelas views.
 
----
-
 ## 🛠 Tecnologias Utilizadas
 
 - Python  
@@ -51,8 +44,6 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 - Django ORM  
 - mysqlclient
 - HTML
-
----
 
 ## 📁 Estrutura do Projeto
 
@@ -66,9 +57,7 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 │── .gitignore           # Arquivos ignorados pelo Git
 ```
 
----
-
-## 🚀 Processo de Desenvolvimento
+## 📋 Processo de Desenvolvimento 
 
 1. Instalação do Django e dependências via terminal  
 2. Criação do projeto e da aplicação  
@@ -76,8 +65,6 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 4. Implementação das páginas HTML com Bootstrap  
 5. Integração com MySQL Workbench  
 6. Testes das operações CRUD  
-
----
 
 ## 📄 Licença
 
