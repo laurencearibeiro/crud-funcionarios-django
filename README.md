@@ -43,7 +43,7 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 
 - Python  
 - Django  
-- MySQL (via MySQL Workbench)  
+- MySQL (MySQL Workbench)  
 - Bootstrap 5  
 - Django ORM  
 - mysqlclient
@@ -68,7 +68,10 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 3. Configuração das URLs, views, models e templates  
 4. Implementação das páginas HTML com Bootstrap  
 5. Integração com MySQL Workbench  
-6. Testes das operações CRUD  
+6. Testes das operações CRUD
+
+## 📹 Demonstração do Projeto
+Um vídeo demonstrando o funcionamento do CRUD pode ser acessado [aqui](https://www.youtube.com/watch?v=Foxd6rRthK8).
 
 ## 📄 Licença
 
