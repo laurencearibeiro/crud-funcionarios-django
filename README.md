@@ -57,7 +57,7 @@ Cada template utiliza Django Template Language para renderizar os dados enviados
 │── templates/           # Arquivos HTML com Bootstrap
 │── projeto/             # Configurações (settings, urls, wsgi)
 │── manage.py            # Gerenciador do Django
-│── requirements.txt     # Dependências (opcional)
+│── requirements.txt     # Dependências
 │── .gitignore           # Arquivos ignorados pelo Git
 ```
 
